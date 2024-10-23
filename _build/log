@@ -1,6 +1,0 @@
-# dune init project jackvm
-# OCAMLPARAM: unset
-# Shared cache: disabled
-# Shared cache location: /home/sanjay/.cache/dune/db
-# Workspace root: /mnt/c/Users/reals/Onedrive/Desktop/Acads/FCS/jackvm
-# Auto-detected concurrency: 8
