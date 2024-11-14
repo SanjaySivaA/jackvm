@@ -23,6 +23,5 @@ let main () =
   let asm_lines = translate_statements vm_lines in
   write_asm asm_lines
 
-(* Run the program *)
 let () = main ()
         
