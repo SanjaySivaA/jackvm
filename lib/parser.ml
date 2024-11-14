@@ -55,6 +55,7 @@ let parse_line line =
   | ["lt"]             -> Some (Command Lt)
   | ["and"]            -> Some (Command And)
   | ["or"]             -> Some (Command Or)
+  | ["not"]            -> Some (Command Not)
   | _                  -> None (*failwith "invalid statement!"*)
 
 let parse_lines lines =
